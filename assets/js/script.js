@@ -234,16 +234,6 @@ var loadTasks = function() {
   for(i = 0; i < savedTasks.length; i++) {
     createTaskEl(savedTasks[i]);
   }
-  //Iterates through a tasks array and creates task elements on the page from it.
-  // var listItemEl = document.createElement("li");
-  // listItemEl.className = "task-item";
-  // listItemEl.setAttribute("data-task-id", tasks[i].id);
-  // console.log(listItemEl);
-  // var taskInfoEl = document.createElement("div");
-  // taskInfoEl.className = "task-info";
-  // taskInfoEl.innerHTML = "<h3 class='task-name'>" + tasks[i].name + "</h3><span class='task-type'>" + tasks[i].type + "</span>";
-  // listItemEl.appendChild(taskInfoEl);
-
 }; 
 
 // Create a new task
